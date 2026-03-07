@@ -62,7 +62,7 @@ label {
     display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 1000px) {
     .image-bg {
         display: none;
     }
@@ -71,19 +71,18 @@ label {
         width: 100%;
     }
 
+    form {
+        width: 900px;
+    }
+
 }
 
-@media screen and (max-width: 400px) {
-    .image-bg {
-        display: none;
+@media (max-width: 400px){
+    form {
+        width: 250px;
     }
 
-    h1 {
+    h1{
         font-size: 2em;
     }
-
-    form {
-        width: 270px;
-    }
-
 }
