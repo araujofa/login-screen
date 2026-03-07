@@ -26,11 +26,11 @@ div.forms {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 3em;
 }
 
@@ -60,4 +60,30 @@ button {
 
 label {
     display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .image-bg {
+        display: none;
+    }
+
+    div.forms {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .image-bg {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    form {
+        width: 270px;
+    }
+
 }
