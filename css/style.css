@@ -26,7 +26,7 @@ div.forms {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     text-align: center;
     user-select: none;
 }
@@ -38,6 +38,11 @@ h1 {
 form {
     margin: 0 auto;
     max-width: 450px;
+    text-align: left;
+}
+
+label {
+    display: none;
 }
 
 input {
@@ -54,8 +59,8 @@ input {
 
 .erro-msg {
     color: red;
-    font-size: 0.8em;
-    text-align: left;
+    font-size: 0.9em;
+    font-weight: 300;
 }
 
 button {
@@ -74,8 +79,24 @@ button:hover {
     background-color: #5521a9;
 }
 
-label {
-    display: none;
+p {
+    color: #888;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons{
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(142, 142, 249, 0.504);
+    border-radius: 10px;
 }
 
 @media (max-width: 1000px) {
